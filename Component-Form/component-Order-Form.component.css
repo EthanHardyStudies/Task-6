@@ -1,0 +1,62 @@
+.Header{
+    text-align: center;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.form{
+    text-align: start;  
+}
+.checkbox{
+    text-align: start;
+}
+.sideA{
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background-color: rgb(112, 201, 181);
+    padding: 10px;
+    height: 90vh;
+    width: 100vh;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sideB{
+    -webkit-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    background-color: rgb(112, 201, 181);
+    padding: 10px;
+    height: 90vh;
+    width: 100vh;
+    border: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.outputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    height: fit-content;
+    width: fit-content;
+    width: 98%;
+    margin: auto;
+}
+.priceTag{
+    text-align: left;
+    font-size: x-large;
+    width: 10%;
+}
+.result{
+    text-align: end;
+    width: 90%;
+}
